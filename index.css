@@ -1,0 +1,48 @@
+#canvas {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+  }
+
+  html, body {
+    height: 100%;
+    margin: 0px;
+}
+.container {
+    height: 100%;
+}
+
+  h1 {
+    color: var(--bg);
+    /* position: relative; */
+    font-size: 10vw;
+    line-height: 23vh;
+    /* margin: 0; */
+    margin-left: 4vw;
+    margin-top: 0px;
+    pointer-events: none;
+  }
+  h2 {
+    color: var(--bg);
+    /* position: relative; */
+    /* font-size: 10vw; */
+    /* line-height: 23vh; */
+    /* margin: 0; */
+    margin-left: 4vw;
+    margin-top: 0px;
+    pointer-events: none;
+  }
+  body {
+    min-height: 100vh;
+    background: var(--fg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  :root {
+    --fg: #ff4000;
+    --bg: #000057;
+  }
